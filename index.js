@@ -1,6 +1,6 @@
  var theBeatlesPlay = (musicians, instruments) => {
    var newArray = []
-   for (i = 0; i < musicians.length; i++){
+   for (var i = 0; i < musicians.length; i++){
      newArray.push(`${musicians[i]} plays ${instruments[i]}`)
    }
    return newArray
@@ -8,7 +8,7 @@
 
 var johnLennonFacts = (array) => {
   var newArray = []
-  i = 0
+  var i = 0
   while (i < array.length) {
     newArray.push(`${array[i]}!!!`)
     i++
@@ -18,7 +18,7 @@ var johnLennonFacts = (array) => {
 
 var iLoveTheBeatles = (number) => {
   var newArray = []
-  i = number
+  var i = number
   do {
     newArray.push("I love the Beatles!")
     i++
